@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4t94t/8aAFN71Ndt0aX7XRbtCc2BzExzEsGHTIvqpgQtw2G4Yr0upgWjyYTYm0uYHmPTjDBa0SGBBOhShtHdPQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\S\\source\\repos\\WebApplication5\\WebApplication5\\ClashGame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\S\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
