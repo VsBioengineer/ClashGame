@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Moho 12.2 build 21774 -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Frame_0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500px" height="100px">
+<path fill="#c94447" fill-rule="evenodd" stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" d="M 0.000 0.000 C 0.005 0.000 49.995 0.000 50.000 0.000 C 50.000 0.005 50.000 49.995 50.000 50.000 C 49.997 50.002 25.003 74.997 25.000 75.000 C 24.997 74.997 0.003 50.002 0.000 50.000 C 0.000 49.995 0.000 0.005 0.000 0.000 Z"/>
+<path fill="#c94447" fill-rule="evenodd" stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" d="M 450.000 0.000 C 450.005 0.000 499.995 0.000 500.000 0.000 C 500.000 0.005 500.000 49.995 500.000 50.000 C 499.998 50.002 475.002 74.997 475.000 75.000 C 474.998 74.997 450.002 50.002 450.000 50.000 C 450.000 49.995 450.000 0.005 450.000 0.000 Z"/>
+</svg>
