@@ -1,0 +1,22 @@
+﻿@model Language
+@{
+    ViewData["Title"] = "RegisterPlayer";
+}
+<div class="register-panel">
+    <div class="row">
+        <div class="col-md-4 offset-md-4 register">
+            <div class="player-king">
+                <img src="~/svg/Flags.svg" />
+                <div class="player-reqest">
+                    <img src="~/svg/Korona.svg" />
+                    <p>@Model.RegistrationText</p>
+                </div>
+            </div>
+            <img src="~/svg/avatars.svg" />
+            <form method="post" asp-controller="Home" asp-action="Register">
+                <input placeholder="@Model.RegistrationField" name="nikname" autocomplete="off"/>
+                <button type="submit">@Model.RegistrationSend</button>
+            </form>
+        </div>
+    </div>
+</div>

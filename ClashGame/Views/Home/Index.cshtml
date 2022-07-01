@@ -1,0 +1,25 @@
+﻿@model AllPlayData
+@{
+    ViewData["Title"] = "Menu";
+}
+<div class="menu-panel">
+    <div class="row">
+        <div class="col-md-4 offset-md-4 menu">
+            <div class="player-king">
+                <img src="~/svg/Flags.svg" />
+                <div class="player-reqest">
+                    <img src="~/svg/Korona.svg" />
+                    <img src="~/svg/avatars.svg" />
+                    <p>@Model.PlayerName</p>
+                    <p class="experience"><img src="~/svg/star.svg" />@Model.PlayerExperience</p>
+                </div>
+            </div>
+            <img class="emphasize-buttons" src="~/svg/backline.svg" />
+            <div class="menu-buttons">
+                <a class="nav-link" asp-controller="Home" asp-action="Play"><img src="~/svg/shield.svg" />@Model.LanguagePlayer.Play</a>
+                <a class="nav-link" asp-controller="Home" asp-action="Config"><img src="~/svg/setting.svg" />@Model.LanguagePlayer.Config</a>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,76 @@
+﻿@model AllPlayData
+@{
+    ViewData["Title"] = "ConfigPlayer";
+    //Объявление массива языков для цикла на с.16 - автозаполнение
+    string[] listlang = { "UA", "EN", "DE" };
+    //Объявление массива карт сражений для цикла на с.34, с.46, с.62 - автозаполнение
+    string[] listMap = { "random" ,  "forest" ,  "desert" , "hell" };
+}
+<div class="setting-panel">
+    <div class="row">
+        <div class="col-md-4 offset-md-4 settings">
+            <form method="post" asp-controller="Home" asp-action="Config">
+                <div class="language-select">
+                    <p>@Model.LanguagePlayer.ConfigLangText</p>
+                    <div class="chose-language">
+                        @foreach (string lang in listlang)
+                        {
+                            @if (Model.LanguagePlayer.ChoiseLang == lang)
+                            {
+                                <div class="lang active"><input name="language" type="submit" value="@lang"><img src="~/svg/CheckMark.svg" /></div>
+                            }
+                            else
+                            {
+                                <div class="lang"><input name="language" type="submit" value="@lang"></div>
+                            }
+                        }
+                    </div>
+                </div>
+                <div class="map-select">
+                    <p>@Model.LanguagePlayer.ConfigMapText</p>
+                    <img src="~/svg/ConfigPattern.svg" />
+                    <div class="chose-map">
+                        <div class="list-map">
+                            @foreach (string map in listMap)
+                            {
+                                @if (Model.PlayerMap == map)
+                                {
+                                    <input type="radio" name="point" id="@map" checked>
+                                }
+                                else
+                                {
+                                    <input type="radio" name="point" id="@map">
+                                }
+                            }
+                            <div class="slider">
+                                @foreach (string map in listMap)
+                                {
+                                    <div class="slides @map">
+                                        @if (Model.PlayerMap == map)
+                                        {
+                                            <button class="map-active" name="map" type="submit" value="@map"></button>
+                                            <img src="~/svg/ChoseMap.svg" />
+                                        }
+                                        else
+                                        {
+                                            <button name="map" type="submit" value="@map"></button>
+                                        }
+                                    </div>
+                                }
+                            </div>
+                            <div class="controls">
+                                @foreach (string map in listMap)
+                                {
+                                    <label for="@map"></label>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="mainback">
+                <a class="nav-link" asp-controller="Home" asp-action="Index">@Model.LanguagePlayer.ConfigBackText</a>
+            </div>
+        </div>
+    </div>
+</div>

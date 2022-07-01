@@ -1,0 +1,444 @@
+﻿@media (max-width: 767px) {
+    body {
+        width: 100vw;
+        position: fixed;
+    }
+}
+@viewport {
+    user-zoom: fixed;
+}
+body {
+    overflow: hidden;
+    background-color: white;
+}
+
+
+
+
+
+.register-panel {
+    background-image: url("../img/Background.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    height: 100vh;
+}
+    .register-panel .register{
+        width: 100%;
+        background: rgba(40, 40, 40, 0.6);
+        text-align: center;
+        position: relative;
+        top: 15vh;
+    }
+    .register-panel .register img{
+        width: 55%;
+    }
+        .register-panel .register .player-king {
+            position: relative;
+            height: 15vh;
+            width: 100%;
+            background: rgba(40, 40, 40, 0.8);
+        }
+        .register-panel .register .player-king img{
+            width: 90%;
+        }
+        .register-panel .register .player-reqest {
+            width: 100%;
+            position: absolute;
+            bottom: 0px;
+            text-align: center;
+        }
+        .register-panel .register .player-king .player-reqest img {
+            width: 50%
+        }
+            .register-panel .register p {
+                font-size: 25px;
+                color: #fff;
+            }
+
+        .register-panel .register input {
+            text-align: center;
+            background: #fff;
+            font-size: 30px;
+            width: 100%;
+        }
+        .register-panel .register form {
+            padding: 15px;
+        }
+        .register-panel .register button {
+            margin: 20px 0 0 0;
+            background: rgba(40, 40, 40, 0.8);
+            border-radius: 5vh;
+            border: 2px solid #fff;
+            width: 70%;
+            height: 10vh;
+            font-size: 25px;
+            color: #fff;
+            transition: 0.1s;
+        }
+            .register-panel .register button:hover {
+                font-size: 28px;
+                background: rgba(70, 40, 40, 0.6);
+            }
+
+
+
+
+
+
+
+
+
+.menu-panel {
+    background-image: url("../img/Background.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    height: 100vh;
+}
+
+    .menu-panel .menu {
+        width: 100%;
+        height: 80vh;
+        background: rgba(40, 40, 40, 0.7);
+        text-align: center;
+        position: relative;
+        top: 17vh;
+    }
+        .menu-panel .menu .player-king {
+            position: relative;
+            height: 48vh;
+            width: 100%;
+            background: rgba(40, 40, 40, 0.8);
+            border-radius: 0 0 50px 50px;
+            border-bottom: 1px solid #fff;
+            border-left: 1px solid #fff;
+            border-right: 1px solid #fff;
+        }
+
+            .menu-panel .menu .player-king img {
+                width: 90%;
+            }
+
+        .menu-panel .menu .player-reqest {
+            width: 100%;
+            position: absolute;
+            bottom: 0px;
+            text-align: center;
+        }
+
+        .menu-panel .menu .player-king .player-reqest img {
+            width: 50%
+        }
+
+        .menu-panel .menu p {
+            font-size: 25px;
+            color: #fff;
+        }
+            .menu-panel .menu p.experience {
+                font-size: 22px;
+                color: #FBF264;
+            }
+        .menu-panel .menu .player-king .player-reqest p.experience img {
+            height: 20px;
+            width: 20px;
+            margin: -5px 0 0 0;
+        }
+        .menu-panel .menu .menu-buttons {
+            width: 100%;
+            text-align: center;
+            padding: 0 10%;
+        }
+        .menu-panel .menu  img.emphasize-buttons{
+            position: absolute;
+            pointer-events: none;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        .menu-panel .menu .menu-buttons a {
+            margin: 15px 0 0 0;
+            background: rgba(10, 30, 120, 0.5);
+            border-radius: 10px;
+            border: 2px solid #fff;
+            width: 100%;
+            height: 10vh;
+            font-size: 25px;
+            color: #fff;
+            transition: 0.1s;
+        }
+
+            .menu-panel .menu .menu-buttons a:hover {
+                font-size: 28px;
+                background: rgba(90, 40, 40, 0.8);
+            }
+
+            .menu-panel .menu .menu-buttons a img {
+                position: absolute;
+                width: 35px;
+                height: 35px;
+                left: calc(10% + 20px);
+                margin: 5px 5px 0 0;
+                transition: 0.1s;
+            }
+            .menu-panel .menu .menu-buttons a:hover img {
+                width: 40px;
+                height: 40px;
+            }
+
+
+
+
+
+
+
+
+
+
+
+.setting-panel {
+    background-image: url("../img/Background.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    height: 100vh;
+}
+    .setting-panel .settings {
+        width: 100%;
+        height: 100vh;
+        background: rgba(40, 40, 40, 0.7);
+        text-align: center;
+        position: relative;
+        top: 0;
+    }
+        .setting-panel .settings p {
+            background: rgba(0, 0, 0, 0.4);
+            font-size: 25px;
+            color: #fff;
+        }
+    .setting-panel .settings img{
+        width: 100%;
+    }
+        .setting-panel .settings .mainback a {
+            position: absolute;
+            bottom: 0px;
+            left: 10%;
+            background: rgba(10, 30, 120, 0.5);
+            border-radius: 10px;
+            border: 2px solid #fff;
+            width: 80%;
+            height: 10vh;
+            font-size: 25px;
+            color: #fff;
+            transition: 0.1s;
+        }
+        @media (max-width: 767px) {
+            .setting-panel .settings .mainback a {
+                bottom: 40px;
+            }
+        }
+            .setting-panel .settings .mainback a:hover {
+                font-size: 28px;
+                background: rgba(90, 40, 40, 0.8);
+            }
+        .setting-panel .settings .language-select {
+            width: 100%;
+            left: 20%;
+        }
+            .setting-panel .settings .language-select .chose-language {
+                display: grid;
+                grid-template-columns: 33% 33% 33%;
+                overflow: hidden;
+                overflow-x: scroll;
+                padding: 0 0 10px 0;
+            }
+                .setting-panel .settings .language-select .chose-language .lang {
+                    padding: 0 10% 0 0;
+                    position: relative;
+                }
+                    .setting-panel .settings .language-select .chose-language .lang input {
+                        width: 100%;
+                        height: 10vh;
+                        background: rgba(255, 255, 255, 0.2);
+                        border: 1px solid #fff;
+                        border-radius: 30px;
+                        color: #fff;
+                        font-size: 18px;
+                        transition: 0.1s;
+                    }
+                        .setting-panel .settings .language-select .chose-language .lang input:hover {
+                            background: rgba(255, 255, 255, 0.3);
+                            font-size: 20px;
+                        }
+                        .setting-panel .settings .language-select .chose-language .lang.active input {
+                            background: rgba(0, 80, 80, 0.7);
+                        }
+                    .setting-panel .settings .language-select .chose-language .lang.active input:hover {
+                        background: rgba(0, 100, 100, 0.5);
+                    }
+                            .setting-panel .settings .language-select .chose-language .lang.active img {
+                                position: absolute;
+                                width: 25px;
+                                height: 25px;
+                                left: 36%;
+                                bottom: -10px;
+                            }
+.map-select img{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+.chose-map {
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    align-content: center;
+    text-align: center;
+}
+    .chose-map .list-map {
+        height: 50vh;
+        position: relative;
+        width: 100%;
+    }
+
+        .chose-map .list-map .slider {
+            background-color: #ddd;
+            height: inherit;
+            overflow: hidden;
+            position: relative;
+            width: inherit;
+            border-radius: 0 40px 0 40px;
+            -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+            -moz-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+            -o-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+            box-shadow: 10px 10px 15px rgba(0, 0, 0, .7);
+        }
+            .chose-map .list-map .slider img{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                pointer-events: none;
+                padding: 5px;
+            }
+            .chose-map .list-map > input {
+                display: none;
+            }
+
+    .chose-map .slides {
+        height: inherit;
+        opacity: 0;
+        position: absolute;
+        width: inherit;
+        z-index: 0;
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(2);
+        -webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+        -moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+        -o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+        transition: transform ease-in-out .4s, opacity ease-in-out .1s;
+    }
+            .chose-map .slides button {
+                width: 100%;
+                height: 50vh;
+                background: rgba(0, 0, 0, 0.2);
+                border: 2px solid #ccc;
+                border-radius: 0 40px 0 40px;
+                transition: 0.3s;
+            }
+        .chose-map .slides button:hover {
+            background: rgba(0, 50, 80, 0.4);
+            border: 2px solid #fff;
+        }
+        .chose-map .slides button.map-active {
+            background: rgba(0, 50, 80, 0.2);
+            border: 2px solid #ccc;
+            border-radius: 0 40px 0 40px;
+        }
+            .chose-map .slides button.map-active:hover {
+                background: rgba(80, 0, 0, 0.2);
+                border: 2px solid #fff;
+            }
+    .chose-map .random {
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url(../img/Random.png);
+    }
+
+    .chose-map .forest {
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url(../img/Forest.png);
+    }
+
+    .chose-map .desert {
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url(../img/Desert.png);
+    }
+
+    .chose-map .hell {
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url(../img/Hell.png);
+    }
+
+        .chose-map .list-map .controls {
+            left: 50%;
+            margin-left: -98px;
+            position: absolute;
+        }
+
+        .chose-map .list-map label {
+            cursor: pointer;
+            display: inline-block;
+            height: 16px;
+            margin: 25px 12px 0 16px;
+            position: relative;
+            width: 16px;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -o-border-radius: 50%;
+            border-radius: 50%;
+            -webkit-transition: background ease-in-out .5s;
+            -moz-transition: background ease-in-out .5s;
+            -o-transition: background ease-in-out .5s;
+            transition: background ease-in-out .5s;
+        }
+
+            .chose-map .list-map label:after {
+                border: 2px solid #ddd;
+                content: " ";
+                display: block;
+                height: 24px;
+                left: -4px;
+                position: absolute;
+                top: -4px;
+                width: 24px;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -o-border-radius: 50%;
+                border-radius: 50%;
+            }
+            .chose-map .list-map label:hover,
+            #random:checked ~ .controls label:nth-of-type(1),
+            #forest:checked ~ .controls label:nth-of-type(2),
+            #desert:checked ~ .controls label:nth-of-type(3),
+            #hell:checked ~ .controls label:nth-of-type(4) {
+                background: #ddd;
+            }
+
+    .chose-map #random:checked ~ .slider > .random,
+    .chose-map #forest:checked ~ .slider > .forest,
+    .chose-map #desert:checked ~ .slider > .desert,
+    .chose-map #hell:checked ~ .slider > .hell {
+        opacity: 1;
+        z-index: 1;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
